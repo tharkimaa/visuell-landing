@@ -214,4 +214,43 @@ body {
         width: 150px;
     }
 }
+.footer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.footer .footer-links a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+.impressum-content {
+    margin-top: 5px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+}   
+
+.impressum-content h3 {
+    margin-top: 10;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.impressum-content p {
+    margin: 5px 0;
+}
+
 

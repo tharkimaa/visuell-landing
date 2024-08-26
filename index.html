@@ -46,7 +46,7 @@
                                 <div class="atropos-inner">
                                     <div class="feature-image atropos-item" data-atropos-offset="-5" style="background-image: url('feature_images/feature1_bg.tiff');"></div>
                                     <div class="feature-foreground atropos-item" data-atropos-offset="5">
-                                        <img src="feature_images/feature1_fg.tiff" alt="Foreground">
+                                        <img src="feature_images/feature1_fg.svg" alt="Foreground">
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@
                                 <div class="atropos-inner">
                                     <div class="feature-image atropos-item" data-atropos-offset="-5" style="background-image: url('feature_images/feature2_bg@1x.tiff');"></div>
                                     <div class="feature-foreground atropos-item" data-atropos-offset="5">
-                                        <img src="feature_images/feature2_fg@1x.tiff" alt="Foreground">
+                                        <img src="feature_images/feature2_fg@0.5x.svg" alt="Foreground">
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
                                 <div class="atropos-inner">
                                     <div class="feature-image atropos-item" data-atropos-offset="-5" style="background-image: url('feature_images/feature3_bg@1x.tiff');"></div>
                                     <div class="feature-foreground atropos-item" data-atropos-offset="5">
-                                        <img src="feature_images/feature3_fg@1x.tiff" alt="Foreground">
+                                        <img src="feature_images/feature3_fg@0.5x.svg" alt="Foreground">
                                     </div>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@
                                 <div class="atropos-inner">
                                     <div class="feature-image atropos-item" data-atropos-offset="-5" style="background-image: url('feature_images/feature4_bg@1x.tiff');"></div>
                                     <div class="feature-foreground atropos-item" data-atropos-offset="5">
-                                        <img src="feature_images/feature4_fg@1x.tiff" alt="Foreground">
+                                        <img src="feature_images/feature4_fg@0.5x.svg" alt="Foreground">
                                     </div>
                                 </div>
                             </div>
@@ -106,7 +106,7 @@
                                 <div class="atropos-inner">
                                     <div class="feature-image atropos-item" data-atropos-offset="-5" style="background-image: url('feature_images/feature5_bg@1x.tiff');"></div>
                                     <div class="feature-foreground atropos-item" data-atropos-offset="5">
-                                        <img src="feature_images/feature5_fg@1x.tiff" alt="Foreground">
+                                        <img src="feature_images/feature5_fg@0.5x.svg" alt="Foreground">
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
                                 <div class="atropos-inner">
                                     <div class="feature-image atropos-item" data-atropos-offset="-5" style="background-image: url('feature_images/feature6_bg@1x.tiff');"></div>
                                     <div class="feature-foreground atropos-item" data-atropos-offset="5">
-                                        <img src="feature_images/feature6_fg@1x.tiff" alt="Foreground">
+                                        <img src="feature_images/feature6_fg@0.5x.svg" alt="Foreground">
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@
                                 <div class="atropos-inner">
                                     <div class="feature-image atropos-item" data-atropos-offset="-5" style="background-image: url('feature_images/feature7_bg@1x.tiff');"></div>
                                     <div class="feature-foreground atropos-item" data-atropos-offset="5">
-                                        <img src="feature_images/feature7_fg@1x.tiff" alt="Foreground">
+                                        <img src="feature_images/feature7_fg@0.5x.svg" alt="Foreground">
                                     </div>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@
                                 <div class="atropos-inner">
                                     <div class="feature-image atropos-item" data-atropos-offset="-5" style="background-image: url('feature_images/feature8_bg@1x.tiff');"></div>
                                     <div class="feature-foreground atropos-item" data-atropos-offset="5">
-                                        <img src="feature_images/feature8_fg@1x.tiff" alt="Foreground">
+                                        <img src="feature_images/feature8_fg@0.5x.svg" alt="Foreground">
                                     </div>
                                 </div>
                             </div>
@@ -179,14 +179,26 @@
         </div>
         <div class="signup">
             <h2>you're early. sign up for our waiting list:</h2>
-            <form action="path/to/your/signup/endpoint" method="POST">
-                <input type="email" name="email" placeholder="Enter Email" required>
-                <button type="submit">Sign Up</button>
-            </form>
+            <iframe id="google-form-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSeP63PWS8OJshGt1rHcB8YFWrWhyEqNhE9CmmOMvgZW07Xvmw/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
-        <div class="footer">
-            <a href="path/to/your/about_page">about</a>
-            <a href="path/to/your/contact_page">connect</a>
+    </div>
+    <div class="footer">
+        <div class="footer-links">
+            <a href="https://www.instagram.com/visuell.art.web/" target="_blank">Connect</a>
+            <a id="impressum-toggle" href="javascript:void(0);">Impressum</a>
+        </div>
+        <div id="impressum-content" class="impressum-content" style="display: none;">
+            <h2>Impressum</h2>
+            <p>Visuell<br>
+            Arjun Jamil<br>
+            Peutestrasse 22<br>
+            20539 Hamburg</p>
+            
+            <h3>Kontakt</h3>
+            <p>E-Mail: visuell.art.web@gmail.com<br></p>
+            
+            <h3>Verbraucherstreitbeilegung/Universalschlichtungsstelle</h3>
+            <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
         </div>
     </div>
     <script src="sequencerscript.js"></script>
@@ -232,5 +244,15 @@
             });
         });
     </script>
+   <script>
+    document.getElementById('impressum-toggle').addEventListener('click', function() {
+        var impressumContent = document.getElementById('impressum-content');
+        if (impressumContent.style.display === 'none' || impressumContent.style.display === '') {
+            impressumContent.style.display = 'block';
+        } else {
+            impressumContent.style.display = 'none';
+        }
+    });
+</script>   
 </body>
 </html>
