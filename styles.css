@@ -288,3 +288,42 @@ body {
         font-size: 13px;
     }
 }
+/* Style for the input field */
+.mc-field-group {
+    margin-bottom: 15px; /* Add space between the input and response */
+}
+
+/* Limit response messages to the width of the input */
+#mc_embed_signup .response {
+    max-width: 100%; /* Make sure it doesn't exceed the container width */
+    width: calc(100% - 4px); /* Adjust width to match the input, considering the border */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in the element's width */
+    color: #fff; /* Adjust text color if needed */
+    border-radius: 4px; /* Optional: add rounded corners */
+    margin: 5px 0; /* Add space between the response and the button */
+}
+
+/* Error response style */
+#mc_embed_signup #mce-error-response {
+    background-color: #e74c3c; /* Red background for errors */
+}
+
+/* Success response style */
+#mc_embed_signup #mce-success-response {
+    background-color: #2ecc71; /* Green background for success */
+}
+
+/* Style for the submit button */
+#mc_embed_signup .optionalParent .clear.foot {
+    margin-top: 10px; /* Add space between the response and the button */
+}
+
+/* Style for the input field */
+#mc_embed_signup input[type="email"] {
+    padding: 10px; /* Adjust padding */
+    width: calc(100% - 4px); /* Full width minus border */
+    box-sizing: border-box; /* Include padding and border in the element's width */
+    margin-bottom: 5px; /* Add space between the input and the response */
+}
+
