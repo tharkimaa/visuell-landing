@@ -47,6 +47,14 @@ body {
     display: flex;
     align-items: center;
 }
+/* Ensure consistent height for all text sections */
+.swiper-slide p {
+    min-height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 /* Remove default Swiper button styling */
 .swiper-button-next,
